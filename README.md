@@ -1,3 +1,6 @@
+[![DOI](https://zenodo.org/badge/81605640.svg)](https://zenodo.org/badge/latestdoi/81605640)
+
+
 # Remote Irradiance Sensors
 
 This repositories contains the circuit board design for sensors that are
