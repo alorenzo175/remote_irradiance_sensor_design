@@ -1,0 +1,947 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/alorenzo/uapvcode/hardware/isensor/trunk/isensor_olinuxino.sch</source>
+    <date>Tue 07 Feb 2017 12:06:23 PM MST</date>
+    <tool>Eeschema 4.0.4-1.fc24-product</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>iSensor</title>
+        <company>UAPV - Antonio Lorenzo</company>
+        <rev>1.1</rev>
+        <date>25 oct 2013</date>
+        <source>isensor_olinuxino.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/power/" tstamps="/52606AA8/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date>25 oct 2013</date>
+        <source>power.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U1">
+      <value>LM2676</value>
+      <footprint>TO220-7</footprint>
+      <datasheet>DOCUMENTATION</datasheet>
+      <libsource lib="isensor" part="LM2676"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>52606FF7</tstamp>
+    </comp>
+    <comp ref="L1">
+      <value>100 uH</value>
+      <footprint>L15-E</footprint>
+      <libsource lib="device" part="INDUCTOR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5260702A</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>100 nF</value>
+      <footprint>C2</footprint>
+      <libsource lib="isensor_olinuxino-rescue" part="C-RESCUE-isensor_olinuxino"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>52607058</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>4.7 uF</value>
+      <footprint>C1</footprint>
+      <libsource lib="isensor_olinuxino-rescue" part="C-RESCUE-isensor_olinuxino"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>52607067</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>4.7 uF</value>
+      <footprint>C1</footprint>
+      <libsource lib="isensor_olinuxino-rescue" part="C-RESCUE-isensor_olinuxino"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>52607076</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>10 nF</value>
+      <footprint>C1</footprint>
+      <libsource lib="isensor_olinuxino-rescue" part="C-RESCUE-isensor_olinuxino"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5260778D</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>SR305</value>
+      <footprint>D4</footprint>
+      <libsource lib="isensor_olinuxino-cache" part="DIODESCH"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>526077DC</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>68 uF</value>
+      <footprint>C1V7</footprint>
+      <libsource lib="isensor_olinuxino-rescue" part="CP1-RESCUE-isensor_olinuxino"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>526077F0</tstamp>
+    </comp>
+    <comp ref="K1">
+      <value>CONN_3</value>
+      <footprint>BARREL_JACK</footprint>
+      <libsource lib="isensor_olinuxino-cache" part="CONN_3"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>52616CB2</tstamp>
+    </comp>
+    <comp ref="U8">
+      <value>MTSMC</value>
+      <footprint>MTSMC</footprint>
+      <libsource lib="isensor" part="MTSMC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5261814B</tstamp>
+    </comp>
+    <comp ref="U7">
+      <value>OLINXUINO_I.MX223</value>
+      <footprint>Olinuxino_i.MX223</footprint>
+      <datasheet>DOCUMENTATION</datasheet>
+      <libsource lib="isensor" part="Olinxuino_i.MX223"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>526181EB</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>MCP602</value>
+      <footprint>DIP-8__300</footprint>
+      <datasheet>DOCUMENTATION</datasheet>
+      <libsource lib="isensor" part="MCP602"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>52654C38</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>MCP3201</value>
+      <footprint>DIP-8__300</footprint>
+      <datasheet>DOCUMENTATION</datasheet>
+      <libsource lib="isensor" part="MCP3201"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>52659B5A</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>MCP1541</value>
+      <footprint>TO92</footprint>
+      <libsource lib="isensor" part="MCP1541"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>52659B69</tstamp>
+    </comp>
+    <comp ref="U6">
+      <value>MCP3204</value>
+      <footprint>DIP-14__300</footprint>
+      <libsource lib="isensor" part="MCP3204"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>52659B78</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>0.1uF</value>
+      <footprint>C2</footprint>
+      <libsource lib="isensor_olinuxino-rescue" part="C-RESCUE-isensor_olinuxino"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>52659C27</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>1uF</value>
+      <footprint>C1</footprint>
+      <libsource lib="isensor_olinuxino-rescue" part="C-RESCUE-isensor_olinuxino"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5265A4AE</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>1uF</value>
+      <footprint>C1</footprint>
+      <libsource lib="isensor_olinuxino-rescue" part="C-RESCUE-isensor_olinuxino"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5265A70E</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>1uF</value>
+      <footprint>C1</footprint>
+      <libsource lib="isensor_olinuxino-rescue" part="C-RESCUE-isensor_olinuxino"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5265AB69</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>1uF</value>
+      <footprint>C1</footprint>
+      <libsource lib="isensor_olinuxino-rescue" part="C-RESCUE-isensor_olinuxino"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5265AD25</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>1uF</value>
+      <footprint>C1</footprint>
+      <libsource lib="isensor_olinuxino-rescue" part="C-RESCUE-isensor_olinuxino"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5265B0F9</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>680</value>
+      <footprint>R1</footprint>
+      <libsource lib="isensor_olinuxino-rescue" part="R-RESCUE-isensor_olinuxino"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5265B22D</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>330pF</value>
+      <footprint>C1</footprint>
+      <libsource lib="isensor_olinuxino-rescue" part="C-RESCUE-isensor_olinuxino"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5265B246</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>50k</value>
+      <footprint>R1</footprint>
+      <libsource lib="isensor_olinuxino-rescue" part="R-RESCUE-isensor_olinuxino"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5265B55D</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>20k</value>
+      <footprint>R1</footprint>
+      <libsource lib="isensor_olinuxino-rescue" part="R-RESCUE-isensor_olinuxino"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5265B587</tstamp>
+    </comp>
+    <comp ref="P1">
+      <value>CONN_2</value>
+      <footprint>SIL-2</footprint>
+      <libsource lib="isensor_olinuxino-cache" part="CONN_2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5265BE22</tstamp>
+    </comp>
+    <comp ref="P2">
+      <value>CONN_2</value>
+      <footprint>SIL-2</footprint>
+      <libsource lib="isensor_olinuxino-cache" part="CONN_2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5265BE31</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>10uF</value>
+      <footprint>C1</footprint>
+      <libsource lib="isensor_olinuxino-rescue" part="C-RESCUE-isensor_olinuxino"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5265D0DC</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>USB</value>
+      <footprint>USB_B</footprint>
+      <libsource lib="isensor_olinuxino-cache" part="USB"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5265D8B3</tstamp>
+    </comp>
+    <comp ref="P3">
+      <value>CONN_2</value>
+      <footprint>PINHEAD1-2</footprint>
+      <libsource lib="isensor_olinuxino-cache" part="CONN_2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>52661AA8</tstamp>
+    </comp>
+    <comp ref="P4">
+      <value>CONN_1</value>
+      <libsource lib="isensor_olinuxino-cache" part="CONN_1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>52669CF4</tstamp>
+    </comp>
+    <comp ref="P5">
+      <value>CONN_1</value>
+      <libsource lib="isensor_olinuxino-cache" part="CONN_1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>52669D03</tstamp>
+    </comp>
+    <comp ref="P6">
+      <value>CONN_1</value>
+      <libsource lib="isensor_olinuxino-cache" part="CONN_1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>52669D12</tstamp>
+    </comp>
+    <comp ref="P7">
+      <value>CONN_1</value>
+      <libsource lib="isensor_olinuxino-cache" part="CONN_1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>52669D21</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>LM61</value>
+      <libsource lib="isensor" part="LM61"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>526B0220</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="isensor_olinuxino-rescue" part="C-RESCUE-isensor_olinuxino">
+      <footprints>
+        <fp>SM*</fp>
+        <fp>C?</fp>
+        <fp>C1-1</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C-RESCUE-isensor_olinuxino</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="isensor_olinuxino-cache" part="CONN_1">
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="isensor_olinuxino-cache" part="CONN_2">
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="PM" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="isensor_olinuxino-cache" part="CONN_3">
+      <fields>
+        <field name="Reference">K</field>
+        <field name="Value">CONN_3</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="PM" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="isensor_olinuxino-rescue" part="CP1-RESCUE-isensor_olinuxino">
+      <footprints>
+        <fp>CP*</fp>
+        <fp>SM*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP1-RESCUE-isensor_olinuxino</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="isensor_olinuxino-cache" part="DIODESCH">
+      <footprints>
+        <fp>D?</fp>
+        <fp>S*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">DIODESCH</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="K" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="INDUCTOR">
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">INDUCTOR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="isensor" part="LM2676">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM2676</field>
+        <field name="Footprint">MODULE</field>
+        <field name="Datasheet">DOCUMENTATION</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Out" type="power_out"/>
+        <pin num="2" name="In" type="power_in"/>
+        <pin num="3" name="Cb" type="output"/>
+        <pin num="4" name="GND" type="power_out"/>
+        <pin num="5" name="NC" type="unspc"/>
+        <pin num="6" name="Fdback" type="output"/>
+        <pin num="7" name="On/Off" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="isensor" part="LM61">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM61</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+Vs" type="power_in"/>
+        <pin num="2" name="Vout" type="power_in"/>
+        <pin num="3" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="isensor" part="MCP1541">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP1541</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VSS" type="power_in"/>
+        <pin num="2" name="VOUT" type="power_out"/>
+        <pin num="3" name="VIN" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="isensor" part="MCP3201">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP3201</field>
+        <field name="Footprint">MODULE</field>
+        <field name="Datasheet">DOCUMENTATION</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VREF" type="input"/>
+        <pin num="2" name="IN+" type="input"/>
+        <pin num="3" name="IN-" type="input"/>
+        <pin num="4" name="VSS" type="power_in"/>
+        <pin num="5" name="~CS~/SHDN" type="input"/>
+        <pin num="6" name="DOUT" type="output"/>
+        <pin num="7" name="CLK" type="input"/>
+        <pin num="8" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="isensor" part="MCP3204">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP3204</field>
+      </fields>
+      <pins>
+        <pin num="1" name="CH0" type="input"/>
+        <pin num="2" name="CH1" type="input"/>
+        <pin num="3" name="CH2" type="input"/>
+        <pin num="4" name="CH3" type="input"/>
+        <pin num="5" name="NC" type="unspc"/>
+        <pin num="6" name="NC" type="unspc"/>
+        <pin num="7" name="DGND" type="power_in"/>
+        <pin num="8" name="~CS~/SHDN" type="input"/>
+        <pin num="9" name="DIN" type="input"/>
+        <pin num="10" name="DOUT" type="output"/>
+        <pin num="11" name="CLK" type="input"/>
+        <pin num="12" name="AGND" type="power_in"/>
+        <pin num="13" name="VREF" type="power_in"/>
+        <pin num="14" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="isensor" part="MCP602">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP602</field>
+        <field name="Footprint">MODULE</field>
+        <field name="Datasheet">DOCUMENTATION</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VOUTA" type="output"/>
+        <pin num="2" name="VINA-" type="input"/>
+        <pin num="3" name="VINA+" type="input"/>
+        <pin num="4" name="VSS" type="power_in"/>
+        <pin num="5" name="VINB+" type="input"/>
+        <pin num="6" name="VINB-" type="input"/>
+        <pin num="7" name="VOUTB" type="output"/>
+        <pin num="8" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="isensor" part="MTSMC">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MTSMC</field>
+      </fields>
+      <pins>
+        <pin num="24" name="RESET" type="input"/>
+        <pin num="25" name="USB_VBUS" type="input"/>
+        <pin num="26" name="GND_2" type="power_in"/>
+        <pin num="27" name="USB_DP" type="BiDi"/>
+        <pin num="28" name="USB_DN" type="BiDi"/>
+        <pin num="33" name="RTS" type="input"/>
+        <pin num="34" name="RXD" type="output"/>
+        <pin num="35" name="TXD" type="input"/>
+        <pin num="36" name="RI" type="output"/>
+        <pin num="37" name="DSR" type="output"/>
+        <pin num="38" name="CTS" type="output"/>
+        <pin num="39" name="DCD" type="output"/>
+        <pin num="40" name="DTR" type="input"/>
+        <pin num="41" name="GND_1" type="power_in"/>
+        <pin num="58" name="LED" type="output"/>
+        <pin num="61" name="VCC" type="power_in"/>
+        <pin num="63" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="isensor" part="Olinxuino_i.MX223">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Olinxuino_i.MX223</field>
+        <field name="Footprint">MODULE</field>
+        <field name="Datasheet">DOCUMENTATION</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+5VEXT" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="PIN1" type="BiDi"/>
+        <pin num="4" name="PIN2" type="BiDi"/>
+        <pin num="5" name="PIN3" type="BiDi"/>
+        <pin num="6" name="PIN4" type="BiDi"/>
+        <pin num="7" name="PIN5" type="BiDi"/>
+        <pin num="8" name="PIN6" type="BiDi"/>
+        <pin num="9" name="PIN7" type="BiDi"/>
+        <pin num="10" name="PIN8" type="BiDi"/>
+        <pin num="11" name="PIN9" type="BiDi"/>
+        <pin num="12" name="PIN10" type="BiDi"/>
+        <pin num="13" name="PIN11" type="BiDi"/>
+        <pin num="14" name="PIN12" type="BiDi"/>
+        <pin num="15" name="PIN13" type="BiDi"/>
+        <pin num="16" name="PIN14" type="BiDi"/>
+        <pin num="17" name="PIN15" type="BiDi"/>
+        <pin num="18" name="PIN16" type="BiDi"/>
+        <pin num="19" name="PIN17" type="BiDi"/>
+        <pin num="20" name="PIN18" type="BiDi"/>
+        <pin num="21" name="PIN19" type="BiDi"/>
+        <pin num="22" name="PIN20" type="BiDi"/>
+        <pin num="23" name="PIN21" type="BiDi"/>
+        <pin num="24" name="PIN22" type="BiDi"/>
+        <pin num="25" name="PIN23" type="BiDi"/>
+        <pin num="26" name="PIN24" type="BiDi"/>
+        <pin num="27" name="PIN25" type="BiDi"/>
+        <pin num="28" name="PIN26" type="BiDi"/>
+        <pin num="29" name="GND" type="power_in"/>
+        <pin num="30" name="3.3V" type="power_out"/>
+        <pin num="31" name="+5VEXT" type="power_in"/>
+        <pin num="32" name="GND" type="power_in"/>
+        <pin num="33" name="3.3V_REG" type="power_out"/>
+        <pin num="34" name="GND" type="power_in"/>
+        <pin num="35" name="AUART1_TXD" type="BiDi"/>
+        <pin num="36" name="AUART1_RXD" type="BiDi"/>
+        <pin num="37" name="I2C_SCL" type="BiDi"/>
+        <pin num="38" name="I2C_SDA" type="BiDi"/>
+        <pin num="39" name="SSP2_MISO" type="BiDi"/>
+        <pin num="40" name="SSP2_MOSI" type="BiDi"/>
+        <pin num="41" name="SSP2_SCK" type="BiDi"/>
+        <pin num="42" name="CS_UEXT_GPIO" type="BiDi"/>
+        <pin num="43" name="PWM0_DUART_RXD" type="BiDi"/>
+        <pin num="44" name="PWM1_DUART_TXD" type="BiDi"/>
+        <pin num="45" name="SJTAG_PSW" type="BiDi"/>
+        <pin num="46" name="HPL" type="BiDi"/>
+        <pin num="47" name="HPR" type="BiDi"/>
+        <pin num="48" name="HPVGND" type="BiDi"/>
+        <pin num="49" name="LIN1_INL" type="BiDi"/>
+        <pin num="50" name="LIN1_INR" type="BiDi"/>
+        <pin num="51" name="PIN34" type="BiDi"/>
+        <pin num="52" name="PIN33" type="BiDi"/>
+        <pin num="53" name="PIN32" type="BiDi"/>
+        <pin num="54" name="PIN31" type="BiDi"/>
+        <pin num="55" name="PIN30" type="BiDi"/>
+        <pin num="56" name="PIN29" type="BiDi"/>
+        <pin num="57" name="PIN28" type="BiDi"/>
+        <pin num="58" name="PIN27" type="BiDi"/>
+        <pin num="59" name="GND" type="power_in"/>
+        <pin num="60" name="BAT" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="isensor_olinuxino-rescue" part="R-RESCUE-isensor_olinuxino">
+      <footprints>
+        <fp>R?</fp>
+        <fp>SM0603</fp>
+        <fp>SM0805</fp>
+        <fp>R?-*</fp>
+        <fp>SM1206</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R-RESCUE-isensor_olinuxino</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="isensor_olinuxino-cache" part="USB">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Vbus" type="power_out"/>
+        <pin num="2" name="D-" type="BiDi"/>
+        <pin num="3" name="D+" type="BiDi"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="Shield_1" type="passive"/>
+        <pin num="6" name="Shield_2" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="device">
+      <uri>/usr/share/kicad/library/device.lib</uri>
+    </library>
+    <library logical="isensor_olinuxino-cache">
+      <uri>/home/alorenzo/uapvcode/hardware/isensor/trunk/isensor_olinuxino-cache.lib</uri>
+    </library>
+    <library logical="isensor_olinuxino-rescue">
+      <uri>/home/alorenzo/uapvcode/hardware/isensor/trunk/isensor_olinuxino-rescue.lib</uri>
+    </library>
+    <library logical="isensor">
+      <uri>/home/alorenzo/uapvcode/hardware/isensor/trunk/libraries/isensor.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(C8-Pad2)">
+      <node ref="U5" pin="1"/>
+      <node ref="U4" pin="2"/>
+      <node ref="U6" pin="13"/>
+      <node ref="C9" pin="1"/>
+      <node ref="C8" pin="2"/>
+    </net>
+    <net code="2" name="Net-(U7-Pad47)">
+      <node ref="U7" pin="47"/>
+    </net>
+    <net code="3" name="Net-(U7-Pad60)">
+      <node ref="U7" pin="60"/>
+    </net>
+    <net code="4" name="Net-(U7-Pad33)">
+      <node ref="U7" pin="33"/>
+    </net>
+    <net code="5" name="Net-(U7-Pad30)">
+      <node ref="U7" pin="30"/>
+    </net>
+    <net code="6" name="Net-(U7-Pad57)">
+      <node ref="U7" pin="57"/>
+    </net>
+    <net code="7" name="Net-(U7-Pad56)">
+      <node ref="U7" pin="56"/>
+    </net>
+    <net code="8" name="Net-(U7-Pad55)">
+      <node ref="U7" pin="55"/>
+    </net>
+    <net code="9" name="Net-(U7-Pad54)">
+      <node ref="U7" pin="54"/>
+    </net>
+    <net code="10" name="Net-(U7-Pad53)">
+      <node ref="U7" pin="53"/>
+    </net>
+    <net code="11" name="Net-(U7-Pad52)">
+      <node ref="U7" pin="52"/>
+    </net>
+    <net code="12" name="Net-(U7-Pad51)">
+      <node ref="U7" pin="51"/>
+    </net>
+    <net code="13" name="Net-(U7-Pad50)">
+      <node ref="U7" pin="50"/>
+    </net>
+    <net code="14" name="Net-(U7-Pad49)">
+      <node ref="U7" pin="49"/>
+    </net>
+    <net code="15" name="Net-(U7-Pad48)">
+      <node ref="U7" pin="48"/>
+    </net>
+    <net code="16" name="/SIG1">
+      <node ref="U7" pin="3"/>
+      <node ref="U5" pin="7"/>
+    </net>
+    <net code="17" name="Net-(U7-Pad46)">
+      <node ref="U7" pin="46"/>
+    </net>
+    <net code="18" name="Net-(U7-Pad45)">
+      <node ref="U7" pin="45"/>
+    </net>
+    <net code="19" name="Net-(U7-Pad44)">
+      <node ref="U7" pin="44"/>
+    </net>
+    <net code="20" name="Net-(U7-Pad43)">
+      <node ref="U7" pin="43"/>
+    </net>
+    <net code="21" name="Net-(U7-Pad42)">
+      <node ref="U7" pin="42"/>
+    </net>
+    <net code="22" name="Net-(U7-Pad41)">
+      <node ref="U7" pin="41"/>
+    </net>
+    <net code="23" name="Net-(U7-Pad40)">
+      <node ref="U7" pin="40"/>
+    </net>
+    <net code="24" name="Net-(U7-Pad39)">
+      <node ref="U7" pin="39"/>
+    </net>
+    <net code="25" name="Net-(U7-Pad38)">
+      <node ref="U7" pin="38"/>
+    </net>
+    <net code="26" name="Net-(U7-Pad37)">
+      <node ref="U7" pin="37"/>
+    </net>
+    <net code="27" name="Net-(U7-Pad28)">
+      <node ref="U7" pin="28"/>
+    </net>
+    <net code="28" name="Net-(U7-Pad27)">
+      <node ref="U7" pin="27"/>
+    </net>
+    <net code="29" name="Net-(U7-Pad26)">
+      <node ref="U7" pin="26"/>
+    </net>
+    <net code="30" name="Net-(U7-Pad25)">
+      <node ref="U7" pin="25"/>
+    </net>
+    <net code="31" name="Net-(C4-Pad2)">
+      <node ref="U1" pin="1"/>
+      <node ref="L1" pin="1"/>
+      <node ref="C4" pin="2"/>
+      <node ref="D1" pin="2"/>
+    </net>
+    <net code="32" name="Net-(C4-Pad1)">
+      <node ref="U1" pin="3"/>
+      <node ref="C4" pin="1"/>
+    </net>
+    <net code="33" name="Net-(C7-Pad2)">
+      <node ref="U3" pin="1"/>
+      <node ref="U5" pin="2"/>
+      <node ref="R4" pin="2"/>
+      <node ref="C7" pin="2"/>
+    </net>
+    <net code="34" name="/SIG7">
+      <node ref="U7" pin="9"/>
+      <node ref="U6" pin="8"/>
+    </net>
+    <net code="35" name="/SIG6">
+      <node ref="U7" pin="8"/>
+      <node ref="U6" pin="9"/>
+    </net>
+    <net code="36" name="/SIG5">
+      <node ref="U7" pin="7"/>
+      <node ref="U6" pin="10"/>
+    </net>
+    <net code="37" name="/SIG4">
+      <node ref="U7" pin="6"/>
+      <node ref="U6" pin="11"/>
+    </net>
+    <net code="38" name="/SIG3">
+      <node ref="U7" pin="5"/>
+      <node ref="U5" pin="5"/>
+    </net>
+    <net code="39" name="/SIG2">
+      <node ref="U7" pin="4"/>
+      <node ref="U5" pin="6"/>
+    </net>
+    <net code="40" name="Net-(J1-Pad2)">
+      <node ref="J1" pin="2"/>
+      <node ref="U8" pin="28"/>
+    </net>
+    <net code="41" name="Net-(J1-Pad3)">
+      <node ref="U8" pin="27"/>
+      <node ref="J1" pin="3"/>
+    </net>
+    <net code="42" name="Net-(J1-Pad1)">
+      <node ref="J1" pin="1"/>
+      <node ref="U8" pin="25"/>
+    </net>
+    <net code="43" name="GND">
+      <node ref="U5" pin="4"/>
+      <node ref="C9" pin="2"/>
+      <node ref="U1" pin="4"/>
+      <node ref="U7" pin="29"/>
+      <node ref="U5" pin="3"/>
+      <node ref="U4" pin="1"/>
+      <node ref="U3" pin="4"/>
+      <node ref="U3" pin="3"/>
+      <node ref="U6" pin="7"/>
+      <node ref="U7" pin="34"/>
+      <node ref="C8" pin="1"/>
+      <node ref="C11" pin="2"/>
+      <node ref="C10" pin="2"/>
+      <node ref="U7" pin="32"/>
+      <node ref="C6" pin="2"/>
+      <node ref="U7" pin="59"/>
+      <node ref="C13" pin="2"/>
+      <node ref="U7" pin="2"/>
+      <node ref="U8" pin="26"/>
+      <node ref="U8" pin="63"/>
+      <node ref="U8" pin="33"/>
+      <node ref="U8" pin="41"/>
+      <node ref="P2" pin="2"/>
+      <node ref="P1" pin="2"/>
+      <node ref="R2" pin="2"/>
+      <node ref="J1" pin="5"/>
+      <node ref="C12" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="K1" pin="3"/>
+      <node ref="K1" pin="2"/>
+      <node ref="U6" pin="12"/>
+      <node ref="C5" pin="2"/>
+      <node ref="D1" pin="1"/>
+      <node ref="J1" pin="4"/>
+      <node ref="C1" pin="2"/>
+      <node ref="U8" pin="40"/>
+      <node ref="C3" pin="2"/>
+      <node ref="J1" pin="6"/>
+      <node ref="P3" pin="2"/>
+      <node ref="U2" pin="3"/>
+    </net>
+    <net code="44" name="Net-(U2-Pad2)">
+      <node ref="U6" pin="2"/>
+      <node ref="U2" pin="2"/>
+    </net>
+    <net code="47" name="Net-(P7-Pad1)">
+      <node ref="P7" pin="1"/>
+    </net>
+    <net code="48" name="Net-(P6-Pad1)">
+      <node ref="P6" pin="1"/>
+    </net>
+    <net code="49" name="Net-(P5-Pad1)">
+      <node ref="P5" pin="1"/>
+    </net>
+    <net code="50" name="Net-(P4-Pad1)">
+      <node ref="P4" pin="1"/>
+    </net>
+    <net code="51" name="Net-(P2-Pad1)">
+      <node ref="U6" pin="4"/>
+      <node ref="P2" pin="1"/>
+    </net>
+    <net code="52" name="Net-(P1-Pad1)">
+      <node ref="U6" pin="3"/>
+      <node ref="P1" pin="1"/>
+    </net>
+    <net code="53" name="Net-(U3-Pad6)">
+      <node ref="U3" pin="6"/>
+      <node ref="U3" pin="7"/>
+      <node ref="U6" pin="1"/>
+    </net>
+    <net code="54" name="Net-(R1-Pad2)">
+      <node ref="R1" pin="2"/>
+      <node ref="U3" pin="5"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="55" name="Net-(C7-Pad1)">
+      <node ref="P3" pin="1"/>
+      <node ref="U3" pin="2"/>
+      <node ref="C7" pin="1"/>
+      <node ref="R4" pin="1"/>
+    </net>
+    <net code="56" name="Net-(U7-Pad58)">
+      <node ref="U7" pin="58"/>
+      <node ref="U8" pin="24"/>
+    </net>
+    <net code="57" name="Net-(U7-Pad24)">
+      <node ref="U7" pin="24"/>
+    </net>
+    <net code="58" name="Net-(U7-Pad35)">
+      <node ref="U8" pin="35"/>
+      <node ref="U7" pin="35"/>
+    </net>
+    <net code="59" name="Net-(U7-Pad36)">
+      <node ref="U8" pin="34"/>
+      <node ref="U7" pin="36"/>
+    </net>
+    <net code="60" name="Net-(U7-Pad16)">
+      <node ref="U7" pin="16"/>
+    </net>
+    <net code="61" name="Net-(U7-Pad15)">
+      <node ref="U7" pin="15"/>
+    </net>
+    <net code="62" name="Net-(U7-Pad14)">
+      <node ref="U7" pin="14"/>
+    </net>
+    <net code="63" name="Net-(U7-Pad23)">
+      <node ref="U7" pin="23"/>
+    </net>
+    <net code="64" name="Net-(U7-Pad13)">
+      <node ref="U7" pin="13"/>
+    </net>
+    <net code="65" name="Net-(U7-Pad22)">
+      <node ref="U7" pin="22"/>
+    </net>
+    <net code="66" name="Net-(U7-Pad12)">
+      <node ref="U7" pin="12"/>
+    </net>
+    <net code="67" name="Net-(U7-Pad21)">
+      <node ref="U7" pin="21"/>
+    </net>
+    <net code="68" name="Net-(U7-Pad11)">
+      <node ref="U7" pin="11"/>
+    </net>
+    <net code="69" name="Net-(U7-Pad19)">
+      <node ref="U7" pin="19"/>
+    </net>
+    <net code="70" name="Net-(U7-Pad18)">
+      <node ref="U7" pin="18"/>
+    </net>
+    <net code="71" name="Net-(U7-Pad17)">
+      <node ref="U7" pin="17"/>
+    </net>
+    <net code="72" name="Net-(U1-Pad7)">
+      <node ref="U1" pin="7"/>
+    </net>
+    <net code="73" name="Net-(U1-Pad5)">
+      <node ref="U1" pin="5"/>
+    </net>
+    <net code="74" name="+12V">
+      <node ref="K1" pin="1"/>
+      <node ref="U1" pin="2"/>
+      <node ref="R1" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="C3" pin="1"/>
+    </net>
+    <net code="77" name="Net-(U8-Pad58)">
+      <node ref="U8" pin="58"/>
+    </net>
+    <net code="78" name="Net-(U7-Pad20)">
+      <node ref="U7" pin="20"/>
+    </net>
+    <net code="79" name="Net-(U7-Pad10)">
+      <node ref="U7" pin="10"/>
+    </net>
+    <net code="80" name="Net-(U8-Pad39)">
+      <node ref="U8" pin="39"/>
+    </net>
+    <net code="81" name="Net-(U8-Pad38)">
+      <node ref="U8" pin="38"/>
+    </net>
+    <net code="82" name="Net-(U8-Pad37)">
+      <node ref="U8" pin="37"/>
+    </net>
+    <net code="83" name="Net-(U8-Pad36)">
+      <node ref="U8" pin="36"/>
+    </net>
+    <net code="84" name="+5V">
+      <node ref="U2" pin="1"/>
+      <node ref="C6" pin="1"/>
+      <node ref="C13" pin="1"/>
+      <node ref="C11" pin="1"/>
+      <node ref="U7" pin="1"/>
+      <node ref="U5" pin="8"/>
+      <node ref="U8" pin="61"/>
+      <node ref="C10" pin="1"/>
+      <node ref="C12" pin="1"/>
+      <node ref="U6" pin="14"/>
+      <node ref="U7" pin="31"/>
+      <node ref="C5" pin="1"/>
+      <node ref="L1" pin="2"/>
+      <node ref="U4" pin="3"/>
+      <node ref="U1" pin="6"/>
+      <node ref="U3" pin="8"/>
+    </net>
+    <net code="85" name="Net-(U6-Pad5)">
+      <node ref="U6" pin="5"/>
+    </net>
+    <net code="86" name="Net-(U6-Pad6)">
+      <node ref="U6" pin="6"/>
+    </net>
+  </nets>
+</export>
